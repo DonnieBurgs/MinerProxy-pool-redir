@@ -14,6 +14,7 @@
 对有SSH需求的朋友，可以先选择【重置密码】，用户名下拉菜单选择【系统默认】ubuntu，密码就是你对登陆密码。
 使用SSH的教程已经非常多了就不再阐述。
 ![image](https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/imgae/tencent_set.png)
+
 不想折腾可以直接使用【远程登陆】下的“一键登录”。
 
 接下来是更新升级ubuntu
