@@ -83,7 +83,8 @@ asia1.ethermine.org:14444
 ```
 自己服务器的IP:15555
 ```
+![image](https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/imgae/miner.png)
 具体用的什么内核怎么配置参考即可，开源矿工只需要添加一个矿池配置即可，只需要填入你的服务器信息就行了。
-
+意外地留意到内核抽水连不上矿池就又赚了点w//
 
 虽然自己写的有点啰嗦，但操作过就很简单了。 如果有什么错误可以在issu提出指正。
