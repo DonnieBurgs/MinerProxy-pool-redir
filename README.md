@@ -10,13 +10,13 @@
 记得选择24元一个月，如果没有的话34也可以选择，系统选择ubuntu 20.04 LTS
 （当你熟悉后可以自行再去寻找更便宜的主机）
 
-<p align="center"><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/images/tencentcloud.png" alt=""></p>
+<p align="center"><img src="https://github.com/HakozakiSerikaP/MinerProxy-pool-redir/blob/main/images/tencentcloud.png" alt=""></p>
 
 ## 第二步 基本操作
 对有SSH需求的朋友，可以先选择【重置密码】，用户名下拉菜单选择【系统默认】ubuntu，密码就是你对登录密码。
 使用SSH的教程已经非常多了就不再阐述。
 
-<p align="center"><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/images/tencent_set.png" alt=""></p>
+<p align="center"><img src="https://github.com/HakozakiSerikaP/MinerProxy-pool-redir/blob/main/images/tencent_set.png" alt=""></p>
 
 不想折腾可以直接使用【远程登录】下的“一键登录”。
 
@@ -75,7 +75,7 @@ sudo redir : 15555 asia1.ethermine.org:14444
 再添加关于22端口的策略为拒绝，当你再需要时再启用它。
 此时你的防火墙里应该只有15555和ICMP是允许的。到这里就基本结束了。
 
-<p align="center"><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/images/tencent_fw.png" alt=""></p>
+<p align="center"><img src="https://github.com/HakozakiSerikaP/MinerProxy-pool-redir/blob/main/images/tencent_fw.png" alt=""></p>
 
 ## 第六步 设置挖矿的配置文件
 把你原来的矿池域名端口换成你的服务器IP端口
@@ -88,7 +88,7 @@ asia1.ethermine.org:14444
 自己服务器的IP:15555
 ```
 
-<p align="center"><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/images/miner.png" alt=""></p>
+<p align="center"><img src="https://github.com/HakozakiSerikaP/MinerProxy-pool-redir/blob/main/images/miner.png" alt=""></p>
 
 具体用的什么内核怎么配置参考即可，开源矿工只需要添加一个矿池配置即可，只需要填入你的服务器信息就行了。
 意外地留意到内核抽水连不上矿池就又赚了点w//
