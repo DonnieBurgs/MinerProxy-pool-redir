@@ -75,7 +75,7 @@ sudo redir : 15555 asia1.ethermine.org:14444
 再添加关于22端口的策略为拒绝，当你再需要时再启用它。
 此时你的防火墙里应该只有15555和ICMP是允许的。到这里就基本结束了。
 
-<center><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/imgae/tencent_fw.png" alt=""></center>
+<p align="center"><img src="https://github.com/HakozakiSerikaP/miner-pool-redir/blob/main/imgae/tencent_fw.png" alt=""></p>
 
 ## 第六步 设置挖矿的配置文件
 把你原来的矿池域名端口换成你的服务器IP端口
