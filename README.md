@@ -22,8 +22,8 @@ sudo apt-get clean
 sudo apt-get autoremove
 ```
 分步执行以上命令，期间需要等待一下，是正常的。
-##第三步 
-###安装redir 重定向
+## 第三步 
+### 安装redir 重定向
 ```
 sudo apt-get install redir -y
 ```
